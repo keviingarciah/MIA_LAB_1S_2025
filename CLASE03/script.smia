@@ -1,5 +1,6 @@
 # Linux
 # mkdisk -size=5 -unit=M -fit=WF -path="/home/keviin/University/PRACTICAS/MIA_LAB_S2_2024/CLASE03/disks/DiscoLab.mia"
 
+# Este es para mí xD
 mkdisk -size=5 -unit=M -fit=WF -path="/Users/kevingarcia/Desktop/Prácticas/MIA_LAB_1S_2025/CLASE03/disks/DiscoLab.mia"
 

@@ -8,5 +8,5 @@ type PARTITION struct {
 	Part_size        int32    // Tamaño de la partición
 	Part_name        [16]byte // Nombre de la partición
 	Part_correlative int32    // Correlativo de la partición
-	Part_id          int32    // ID de la partición
+	Part_id          [4]byte  // ID de la partición
 }
