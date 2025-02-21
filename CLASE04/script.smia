@@ -1,0 +1,6 @@
+mkdisk -size=5 -unit=M -fit=WF -path="/Users/kevingarcia/Desktop/Prácticas/MIA_LAB_1S_2025/CLASE04/disks/DiscoLab.mia"
+
+fdisk -size=1 -type=P -unit=M -fit=BF -name="Particion1" -path="/Users/kevingarcia/Desktop/Prácticas/MIA_LAB_1S_2025/CLASE04/disks/DiscoLab.mia"
+fdisk -size=2 -type=P -unit=M -fit=WF -name="Particion2" -path="/Users/kevingarcia/Desktop/Prácticas/MIA_LAB_1S_2025/CLASE04/disks/DiscoLab.mia"
+
+mount -name="Particion2" -path="/Users/kevingarcia/Desktop/Prácticas/MIA_LAB_1S_2025/CLASE04/disks/DiscoLab.mia"
