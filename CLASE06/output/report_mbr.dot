@@ -1,0 +1,41 @@
+digraph G {
+        node [shape=plaintext]
+        tabla [label=<
+            <table border="0" cellborder="1" cellspacing="0">
+                <tr><td colspan="2"> REPORTE MBR </td></tr>
+                <tr><td>mbr_tamano</td><td>5242880</td></tr>
+                <tr><td>mrb_fecha_creacion</td><td>2025-03-06 16:00:32 -0600 CST</td></tr>
+                <tr><td>mbr_disk_signature</td><td>1766694553</td></tr>
+            
+				<tr><td colspan="2"> PARTICIÓN 1 </td></tr>
+				<tr><td>part_status</td><td>1</td></tr>
+				<tr><td>part_type</td><td>P</td></tr>
+				<tr><td>part_fit</td><td>B</td></tr>
+				<tr><td>part_start</td><td>153</td></tr>
+				<tr><td>part_size</td><td>1048576</td></tr>
+				<tr><td>part_name</td><td>Particion1</td></tr>
+			
+				<tr><td colspan="2"> PARTICIÓN 2 </td></tr>
+				<tr><td>part_status</td><td>N</td></tr>
+				<tr><td>part_type</td><td>N</td></tr>
+				<tr><td>part_fit</td><td>N</td></tr>
+				<tr><td>part_start</td><td>-1</td></tr>
+				<tr><td>part_size</td><td>-1</td></tr>
+				<tr><td>part_name</td><td>N</td></tr>
+			
+				<tr><td colspan="2"> PARTICIÓN 3 </td></tr>
+				<tr><td>part_status</td><td>N</td></tr>
+				<tr><td>part_type</td><td>N</td></tr>
+				<tr><td>part_fit</td><td>N</td></tr>
+				<tr><td>part_start</td><td>-1</td></tr>
+				<tr><td>part_size</td><td>-1</td></tr>
+				<tr><td>part_name</td><td>N</td></tr>
+			
+				<tr><td colspan="2"> PARTICIÓN 4 </td></tr>
+				<tr><td>part_status</td><td>N</td></tr>
+				<tr><td>part_type</td><td>N</td></tr>
+				<tr><td>part_fit</td><td>N</td></tr>
+				<tr><td>part_start</td><td>-1</td></tr>
+				<tr><td>part_size</td><td>-1</td></tr>
+				<tr><td>part_name</td><td>N</td></tr>
+			</table>>] }
