@@ -1,0 +1,13 @@
+mkdisk -size=5 -unit=M -fit=WF -path="/Users/kevingarcia/Desktop/Prácticas/MIA_LAB_1S_2025/CLASE09/disks/DiscoLab.mia"
+
+fdisk -size=1 -type=P -unit=M -fit=BF -name="Particion1" -path="/Users/kevingarcia/Desktop/Prácticas/MIA_LAB_1S_2025/CLASE09/disks/DiscoLab.mia"
+
+mount -name="Particion1" -path="/Users/kevingarcia/Desktop/Prácticas/MIA_LAB_1S_2025/CLASE09/disks/DiscoLab.mia"
+
+mkfs -id=531A -fs=3fs
+
+login -user=root -pass=123 -id=531A
+
+mkdir -path="/home"
+
+rep -id=531A -path="/Users/kevingarcia/Desktop/Prácticas/MIA_LAB_1S_2025/CLASE09/output/report_inode.png" -name=inode

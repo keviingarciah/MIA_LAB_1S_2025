@@ -1,0 +1,65 @@
+digraph G {
+        node [shape=plaintext]
+    inode0 [label=<
+            <table border="0" cellborder="1" cellspacing="0">
+                <tr><td colspan="2"> REPORTE INODO 0 </td></tr>
+                <tr><td>i_uid</td><td>1</td></tr>
+                <tr><td>i_gid</td><td>1</td></tr>
+                <tr><td>i_size</td><td>0</td></tr>
+                <tr><td>i_atime</td><td>2025-03-27T16:04:48-06:00</td></tr>
+                <tr><td>i_ctime</td><td>2025-03-27T16:04:48-06:00</td></tr>
+                <tr><td>i_mtime</td><td>2025-03-27T16:04:48-06:00</td></tr>
+                <tr><td>i_type</td><td>0</td></tr>
+                <tr><td>i_perm</td><td>777</td></tr>
+                <tr><td colspan="2">BLOQUES DIRECTOS</td></tr>
+            <tr><td>1</td><td>0</td></tr><tr><td>2</td><td>-1</td></tr><tr><td>3</td><td>-1</td></tr><tr><td>4</td><td>-1</td></tr><tr><td>5</td><td>-1</td></tr><tr><td>6</td><td>-1</td></tr><tr><td>7</td><td>-1</td></tr><tr><td>8</td><td>-1</td></tr><tr><td>9</td><td>-1</td></tr><tr><td>10</td><td>-1</td></tr><tr><td>11</td><td>-1</td></tr><tr><td>12</td><td>-1</td></tr>
+                <tr><td colspan="2">BLOQUE INDIRECTO</td></tr>
+                <tr><td>13</td><td>-1</td></tr>
+                <tr><td colspan="2">BLOQUE INDIRECTO DOBLE</td></tr>
+                <tr><td>14</td><td>-1</td></tr>
+                <tr><td colspan="2">BLOQUE INDIRECTO TRIPLE</td></tr>
+                <tr><td>15</td><td>-1</td></tr>
+            </table>>];
+        inode0 -> inode1;
+inode1 [label=<
+            <table border="0" cellborder="1" cellspacing="0">
+                <tr><td colspan="2"> REPORTE INODO 1 </td></tr>
+                <tr><td>i_uid</td><td>1</td></tr>
+                <tr><td>i_gid</td><td>1</td></tr>
+                <tr><td>i_size</td><td>27</td></tr>
+                <tr><td>i_atime</td><td>2025-03-27T16:04:48-06:00</td></tr>
+                <tr><td>i_ctime</td><td>2025-03-27T16:04:48-06:00</td></tr>
+                <tr><td>i_mtime</td><td>2025-03-27T16:04:48-06:00</td></tr>
+                <tr><td>i_type</td><td>1</td></tr>
+                <tr><td>i_perm</td><td>777</td></tr>
+                <tr><td colspan="2">BLOQUES DIRECTOS</td></tr>
+            <tr><td>1</td><td>1</td></tr><tr><td>2</td><td>-1</td></tr><tr><td>3</td><td>-1</td></tr><tr><td>4</td><td>-1</td></tr><tr><td>5</td><td>-1</td></tr><tr><td>6</td><td>-1</td></tr><tr><td>7</td><td>-1</td></tr><tr><td>8</td><td>-1</td></tr><tr><td>9</td><td>-1</td></tr><tr><td>10</td><td>-1</td></tr><tr><td>11</td><td>-1</td></tr><tr><td>12</td><td>-1</td></tr>
+                <tr><td colspan="2">BLOQUE INDIRECTO</td></tr>
+                <tr><td>13</td><td>-1</td></tr>
+                <tr><td colspan="2">BLOQUE INDIRECTO DOBLE</td></tr>
+                <tr><td>14</td><td>-1</td></tr>
+                <tr><td colspan="2">BLOQUE INDIRECTO TRIPLE</td></tr>
+                <tr><td>15</td><td>-1</td></tr>
+            </table>>];
+        inode1 -> inode2;
+inode2 [label=<
+            <table border="0" cellborder="1" cellspacing="0">
+                <tr><td colspan="2"> REPORTE INODO 2 </td></tr>
+                <tr><td>i_uid</td><td>1</td></tr>
+                <tr><td>i_gid</td><td>1</td></tr>
+                <tr><td>i_size</td><td>0</td></tr>
+                <tr><td>i_atime</td><td>2025-03-27T16:06:56-06:00</td></tr>
+                <tr><td>i_ctime</td><td>2025-03-27T16:06:56-06:00</td></tr>
+                <tr><td>i_mtime</td><td>2025-03-27T16:06:56-06:00</td></tr>
+                <tr><td>i_type</td><td>0</td></tr>
+                <tr><td>i_perm</td><td>664</td></tr>
+                <tr><td colspan="2">BLOQUES DIRECTOS</td></tr>
+            <tr><td>1</td><td>2</td></tr><tr><td>2</td><td>-1</td></tr><tr><td>3</td><td>-1</td></tr><tr><td>4</td><td>-1</td></tr><tr><td>5</td><td>-1</td></tr><tr><td>6</td><td>-1</td></tr><tr><td>7</td><td>-1</td></tr><tr><td>8</td><td>-1</td></tr><tr><td>9</td><td>-1</td></tr><tr><td>10</td><td>-1</td></tr><tr><td>11</td><td>-1</td></tr><tr><td>12</td><td>-1</td></tr>
+                <tr><td colspan="2">BLOQUE INDIRECTO</td></tr>
+                <tr><td>13</td><td>-1</td></tr>
+                <tr><td colspan="2">BLOQUE INDIRECTO DOBLE</td></tr>
+                <tr><td>14</td><td>-1</td></tr>
+                <tr><td colspan="2">BLOQUE INDIRECTO TRIPLE</td></tr>
+                <tr><td>15</td><td>-1</td></tr>
+            </table>>];
+        }
