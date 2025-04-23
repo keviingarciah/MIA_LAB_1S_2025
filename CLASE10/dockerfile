@@ -1,0 +1,32 @@
+# Etapa 1: Construcción del binario
+FROM golang:1.21-alpine AS build
+
+# Crear directorio de trabajo
+WORKDIR /app
+
+# Copiar el archivo go.mod y go.sum (si lo tienes) para descargar las dependencias
+COPY go.mod go.sum ./
+
+# Descargar las dependencias
+RUN go mod download
+
+# Copiar todo el código de la aplicación
+COPY . .
+
+# Compilar la aplicación
+RUN go build -o app .
+
+# Etapa 2: Imagen ligera para ejecutar el binario
+FROM alpine:latest
+
+# Crear un directorio de trabajo
+WORKDIR /root/
+
+# Copiar el binario desde la etapa de construcción
+COPY --from=build /app/app .
+
+# Exponer el puerto en el que la aplicación escucha
+EXPOSE 3000
+
+# Comando para ejecutar la aplicación
+CMD ["./app"]

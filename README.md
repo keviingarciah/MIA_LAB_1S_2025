@@ -16,6 +16,7 @@ Repositorio para el apoyo de los estudiantes durante el laboratorio 😄.
     <li> 👉 <a href="https://github.com/keviingarciah/MIA_LAB_1S_2025/tree/main/CLASE07" target="_blank">CLASE 07</a></li>
     <li> 👉 <a href="https://github.com/keviingarciah/MIA_LAB_1S_2025/tree/main/CLASE08" target="_blank">CLASE 08</a></li>
     <li> 👉 <a href="https://github.com/keviingarciah/MIA_LAB_1S_2025/tree/main/CLASE09" target="_blank">CLASE 09</a></li>
+    <li> 👉 <a href="https://github.com/keviingarciah/MIA_LAB_1S_2025/tree/main/CLASE10" target="_blank">CLASE 10</a></li>
 </ul>
 
 > **Nota:** Si les ayudaron los ejemplos, no olviden dar ⭐ al repositorio. O seguir mi perfil 🫂.
