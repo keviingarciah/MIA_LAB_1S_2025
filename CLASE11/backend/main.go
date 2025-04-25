@@ -4,6 +4,7 @@ import (
 	analyzer "backend/analyzer"
 	"fmt"
 	"strings"
+	"time"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
@@ -21,6 +22,13 @@ func main() {
 	app := fiber.New()
 
 	app.Use(cors.New(cors.Config{}))
+
+	app.Get("/", func(c *fiber.Ctx) error {
+		return c.JSON(fiber.Map{
+			"status": "ok",
+			"time":   time.Now(),
+		})
+	})
 
 	app.Post("/execute", func(c *fiber.Ctx) error {
 		var req CommandRequest
@@ -55,5 +63,5 @@ func main() {
 		})
 	})
 
-	app.Listen(":3001")
+	app.Listen(":8080")
 }

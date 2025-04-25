@@ -1,3 +1,3 @@
-# Clase 8
+# Clase 9
 
-Explicación del **frontend** y **backend** de una aplicación web. Comunicación entre el frontend y el backend. Mensajes de error y éxito.
+Explicación del **journal** de una aplicación web. Cómo se generan los logs y cómo se pueden utilizar para depurar errores. Ejemplos de logs en el frontend y el backend.

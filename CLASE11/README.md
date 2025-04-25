@@ -1,3 +1,20 @@
-# Clase 8
+# Clase 11
 
-Explicación del **frontend** y **backend** de una aplicación web. Comunicación entre el frontend y el backend. Mensajes de error y éxito.
+sudo apt update
+sudo apt upgrade
+sudo apt  install golang-go
+
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "PublicReadGetObject",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::NOMBRE-DEL-BUCKET/*"
+    }
+  ]
+}
+
+

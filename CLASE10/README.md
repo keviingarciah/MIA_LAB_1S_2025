@@ -1,4 +1,4 @@
-# Comandos necesarios:
+# CLASE 10
 
 ## Instalacion de docker en EC2
 

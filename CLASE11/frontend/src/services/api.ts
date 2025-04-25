@@ -1,6 +1,8 @@
-const API_URL = "http://localhost:3001";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080";
 
 export const executeCommands = async (command: string): Promise<string> => {
+  console.log(API_URL);
+
   try {
     const response = await fetch(`${API_URL}/execute`, {
       method: "POST",
